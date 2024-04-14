@@ -12,6 +12,6 @@ NOTE: Some variables specific to the Rimworld Together mod appear with the descr
 
 ## How to Install
 
-1. Download the latest release
+1. Download the [latest release](https://github.com/Eviloklom/Rimworld-Together-Server-Manager/releases/tag/RTSM)
 2. Unzip the rar contents on the "Rimworld Together" server folder
 3. Run the program
