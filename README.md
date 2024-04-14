@@ -15,3 +15,15 @@ NOTE: Some variables specific to the Rimworld Together mod appear with the descr
 1. Download the [latest release](https://github.com/Eviloklom/Rimworld-Together-Server-Manager/releases/tag/RTSM)
 2. Unzip the rar contents on the "Rimworld Together" server folder
 3. Run the program
+
+## Features
+
+![image](https://github.com/Eviloklom/Rimworld-Together-Server-Manager/assets/166970122/e14df215-7f04-4c88-9ab0-7c52dcb9c565)
+
+The program is divided into tabs.
+
+Currently only the "Core" tab is available. In the future, extra tabs will be implemented that will allow the management of information related to each directory.
+
+Within the "Core" tab there is one tab for each json file. Each tab has a save button to save the data that has been modified. Each variable has a tooltip if you hover over the label.
+
+The program will always load the information stored in the json and csv files first, and will always show the last modification made.
