@@ -1,0 +1,7 @@
+ServerConfig.json,Min Range,Max Range,Description
+IP,ENTRY,,Sets the IP to which all players should connect to. \n\nNote: If you're using a VPN make sure you set your VPN IP as the server IP.
+Port,ENTRY,,Sets the Port to which all players should connect to.
+MaxPlayers,ENTRY,,Sets the maximum amount of players allowed to join the server.
+MaxTimeoutInMS,ENTRY,,Sets the maximum amount of time in milliseconds for a player to be afk before being kicked.
+VerboseLogs,BOOL,,Unknown
+DisplayChatInConsole,BOOL,,Unknown

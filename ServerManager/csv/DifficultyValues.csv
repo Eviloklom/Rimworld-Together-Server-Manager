@@ -1,0 +1,44 @@
+DifficultyValues.json,Min Range,Max Range,Description
+UseCustomDifficulty,BOOL,,"This setting allows you to define your own playstyle in detail. \n\nRecommended for: \n\n- Players who are happy with one of the standard playstyles levels, but want to change a few things. \n\n- Players who want to experiment with something different."
+ThreatScale,0,500,"Adjust the size of threats like raids and infestations, and the difficulty of quests."
+AllowBigThreats,BOOL,,"Allow major threats such as raids, infestations, manhunter packs, crashed mechanoid ships and more."
+AllowViolentQuests,BOOL,,"Allow quests to present with violent threats and challenges. If this is disabled, quests will be modified to be non-violent."
+AllowIntroThreats,BOOL,,Enable the fixed intro threats that appear near game start. 
+PredatorsHuntHumanlikes,BOOL,,Allow wild predators to hunt humans.
+AllowExtremeWeatherIncidents,BOOL,,"Allow extreme weather incidents such as toxic fallout, volcanic winters and flashstorms."
+CropYieldFactor,0,500,Adjust the amount of materials produced when harvesting plants and crops. This includes harvesting plants and cutting trees.
+MineYieldFactor,0,500,Adjust the amount of materials produced when mining.
+ButcherYieldFactor,0,500,"Adjust the amount of materials produced when butchering. This includes meat, leather, and yield from shredding mechanoids."
+ResearchSpeedFactor,0,500,Adjust the speed of research.
+QuestRewardValueFactor,0,500,"Adjust the value of rewards given for quests. \n\nNote: Quest reward value is also automatically scaled to compensate for threat scale. If you adjust this setting, you'll be adding an additional multiplier. "
+RaidLootPointsFactor,0,500,"Adjust the value of loot carried by raiders. \n\nNote: Raid loot value is also automatically scaled to compensate for threat scale. If you adjust this setting, you'll be adding an additional multiplier."
+TradePriceFactorLoss,0,50,"When trading, buy prices are increased by this amount while sell prices are reduced by this amount."
+MaintenanceCostFactor,1,100,Adjust the cost of rearming turrets.
+ScariaRotChance,0,100,"The probability that a corpse will immediately rot upon death, if the creature has the scaria disease. \n\nNote: The default setting are designed to exactly balance out the increase in animal count at higher difficulties, so all players get the same meat rewards."
+EnemyDeathOnDownedChanceFactor,0,100,"Adjust the extra chance that an enemy will immediately die when downed. This affects the chances to take prisoners, an thus colony population growth rates."
+ColonistMoodOffset,-20,20,A permanent mood offset applied to every colonist and prisoner. Colonists have a base mood of 50%. 
+FoodPoisonChanceFactor,0,500,Adjust the chance that a person will get food poisoning from eating a potentially-poisoned meal.
+ManhunterChanceOnDamageFactor,0,500,Adjust the chance that injuring a wild animal will cause it to attack.
+PlayerPawnInfectionChanceFactor,0,500,Adjust the chance that a wound will become infected.
+DiseaseIntervalFactor,0,500,Adjust the frequency of random disease events.
+EnemyReproductionRateFactor,0,500,Adjust the rate at which existing insect hives spawn new insects. Lower values means more time between spawn events. \n\nThis does not affect whether infestations can occur - only the speed at which active hives produce insects.
+DeepDrillInfestationChanceFactor,0,500,Adjust the chance that deep drilling will trigger an infestation.
+FriendlyFireChanceFactor,0,100,"Adjust the chance of friendly fire. \n\nNote: This setting only affects direct shots which were going to hit their target. It does not prevent damage from explosions, or from shots which were going to miss their target."
+AllowInstantKillChance,0,100,"Adjust the chance that a colonist can die instantly due to an attack. The incoming damage is adjusted so it will down the colonist instead. \n\nThis only prevents some kinds of instant kills - colonists can still be downed and bleed to death, die from fire, explosions, disease, and so on. "
+PeacefulTemples,BOOL,,Ancient structures may contain dangerous threats.
+AllowCaveHives,BOOL,,Dormant insect hives may spawn in natural caves. \n\nThis setting only applies to map generation and does not affect active insects that may tunnel in during play.
+UnwaveringPrisoners,BOOL,,"This option adds additional capturable prisoners to the game who cannot be recruited due to unwavering loyalty. \n\nUnwavering prisoners are added on top of normal prisoners, so turning this off won't give more recruitable prisoners - it simply removes the unwavering ones. \n\nUnwavering prisoners can still be released for diplomatic gains, sold, enslaved, harvested for organs, or otherwise made use of. In general, they offer more options and resources, and make the game a bit richer and easier."
+AllowTraps,BOOL,,Player can build traps like spike traps and IED traps.
+AllowTurrets,BOOL,,"Player can build static turrets like mini-turrets, autocannon turrets, and uranium slug turrets. \n\nYou can still use captured turrets even if this is disabled."
+AllowMortars,BOOL,,Player can build mortars. \n\nYou can still use captured mortars even if this is disabled.
+ClassicMortars,BOOL,,"Mortars will not require reinforced barrels to construct or reload, and are balanced for this ease of access."
+AdaptationEffectFactor,0,100,"Adaptation means the storyteller makes the game more challenging when you're doing well. An adaptation score grows over time, and is knocked down when you take damage. \n\nThis setting adjusts how much the adaptation score affects the difficulty."
+AdaptationGrowthRateFactorOverZero,0,100,"Adaptation means the storyteller makes the game more challenging when you're doing well. An adaptation score grows over time, and is knocked down when you take damage. \n\nThis setting adjusts how fast the adaptation score grows over time."
+FixedWealthMode,BOOL,,"Play in a wealth-independent mode. \n\nIn normal mode, the storyteller scales threats according to colonist count, player wealth, and a variety of other factors. Wealth-independent mode removes the wealth factor and replaces it with a fixed progress curve based on time. The time is counted from the founding of each colony. \n\nThis is only recommended for those looking for a strict skill challenge. In wealth-independent mode, it may be nearly impossible to recover from serious losses unless you found a new settlement. It's also possible to get too far ahead of the curve and find the game too easy."
+LowPopConversionBoost,100,500,"With a single colonist of the player's starting ideoligion, conversion chance to their ideoligion is multiplied by this amount. Conversion attempts against them have their impact divided by that amount. \n\nWith two colonists of the player's starting ideoligion, the effect is halved. \n\nWith three or more colonists of the player's starting ideoligion, this has no effect."
+NoBabiesOrChildren,BOOL,,Humans can't become pregnant. Human babies and children will never appear unless you choose them as starting colonists.
+BabiesAreHealthy,BOOL,,Human babies are always born healthy. Mothers can't die in childbirth or have miscarriages.
+ChildRaidersAllowed,BOOL,,Hostile raids will sometimes include children.
+ChildAgingRate,100,600,"Adjust the rate at which babies and children will age. Between ages 11 and 20, the child's aging rate will smoothly transition to the adult aging rate. "
+AdultAgingRate,100,600,Adjust the rate at which adults will age.
+WastepackInfestationChanceFactor,0,500,Adjust the chance that a dissolved wastepack will trigger the arrival of insect cocoons.

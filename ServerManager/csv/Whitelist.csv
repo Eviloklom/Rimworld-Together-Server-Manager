@@ -1,0 +1,3 @@
+Whitelist.json,Min Range,Max Range,Description
+UseWhitelist,BOOL,,Unknown
+WhitelistedUsers,LIST,,Unknown
