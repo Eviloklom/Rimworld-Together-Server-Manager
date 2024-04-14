@@ -24,6 +24,10 @@ The program is divided into tabs.
 
 Currently only the "Core" tab is available. In the future, extra tabs will be implemented that will allow the management of information related to each directory.
 
-Within the "Core" tab there is one tab for each json file. Each tab has a save button to save the data that has been modified. Each variable has a tooltip if you hover over the label.
+Within the "Core" tab there is one tab for each json file. Each tab has a save button to save the data that has been modified in every specific tab. Each variable has a tooltip if you hover over the label. Note that variables mantain the same name as in the json file, and some do not exactly correspond to in-game names.
 
 The program will always load the information stored in the json and csv files first, and will always show the last modification made.
+
+## Final Notes
+
+· Special Thanks to [Rimworld Together](https://github.com/RimworldTogether/Rimworld-Together) mod creators. It's an amazing mod!
